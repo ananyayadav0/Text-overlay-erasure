@@ -1,0 +1,19 @@
+# Environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Generated data, model weights and experiment outputs (reproducible from the scripts)
+dataset/
+models/
+results/
+logs/
+submission/
+report/figures/
+report/tables/
+colab/*.zip
+
+# OS
+.DS_Store

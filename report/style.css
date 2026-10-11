@@ -1,0 +1,30 @@
+@page { size: A4; margin: 18mm 16mm 18mm 16mm; }
+:root { --ink: #0b0b0b; --ink2: #52514e; --rule: #d9d8d3; --accent: #2a78d6; }
+html { background: #fff; }
+body {
+  font-family: "Charter", "Georgia", "Times New Roman", serif; font-size: 10.5pt; line-height: 1.42;
+  color: var(--ink); max-width: none; margin: 0; padding: 0; background: #fff;
+}
+header#title-block-header { display: none; }
+h1 { font-size: 17pt; line-height: 1.2; margin: 0 0 4pt; text-align: center; }
+.authors { text-align: center; color: var(--ink2); font-size: 10pt; margin-bottom: 12pt; }
+h2 { font-size: 12.5pt; margin: 16pt 0 5pt; border-bottom: 1px solid var(--rule); padding-bottom: 2pt; }
+h3 { font-size: 11pt; margin: 11pt 0 4pt; }
+h2, h3, .tcap { break-after: avoid; page-break-after: avoid; }
+p { margin: 0 0 6pt; text-align: justify; hyphens: auto; }
+.abstract { font-size: 10pt; margin: 0 24pt 10pt; }
+table { border-collapse: collapse; width: 100%; font-family: "Helvetica Neue", Arial, sans-serif;
+        font-size: 8pt; margin: 4pt 0 4pt; font-variant-numeric: tabular-nums; }
+th, td { padding: 2.5pt 4pt; border-bottom: 1px solid var(--rule); }
+thead th { border-top: 1.5px solid var(--ink); border-bottom: 1px solid var(--ink); font-weight: 600; }
+tbody tr:last-child td { border-bottom: 1.5px solid var(--ink); }
+tr { break-inside: avoid; }
+figure { margin: 8pt 0 10pt; break-inside: avoid; text-align: center; }
+figure img { max-width: 100%; }
+figcaption, .caption { font-size: 9pt; color: var(--ink2); text-align: justify; margin-top: 3pt; }
+.tcap { font-size: 9pt; color: var(--ink2); margin: 8pt 0 2pt; }
+code { font-size: 9pt; }
+ul, ol { margin: 0 0 6pt 16pt; padding: 0; }
+li { margin-bottom: 2pt; }
+.refs p { font-size: 9pt; text-align: left; margin-bottom: 3pt; padding-left: 16pt; text-indent: -16pt; }
+.pb { break-before: page; }
